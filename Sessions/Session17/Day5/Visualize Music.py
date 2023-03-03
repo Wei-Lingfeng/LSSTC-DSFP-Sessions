@@ -6,8 +6,8 @@ from matplotlib import animation
 
 # Read in the music file
 # y, sr = librosa.load(librosa.ex('nutcracker'), offset=20, duration=20)
-y, sr = librosa.load('Canon.wav')
-save_animation = True
+y, sr = librosa.load('Canon.wav', offset=2, duration=30)
+save_animation = False
 # Save path
 save_path = 'Visualize Canon.mp4'
 
